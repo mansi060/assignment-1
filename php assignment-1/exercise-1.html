@@ -14,11 +14,12 @@
     }
     .con1{
         width: 55%;
-        height: 550px;
+        height:530px;
         margin: auto;
         background-color:#80FF00;
         padding: 25px;
         margin-top: 6%;
+        border-radius: 15px;
     }
     h4{
         margin-top:auto;
@@ -33,56 +34,59 @@
 <body>
     <div class="con1">
    <h4><b>Step 1: Your details</b></h4>
-   <div style="height: 25px; width:auto; border: solid 2px white; background-color:#99FF66;  margin:1px; margin-top:2%;   float:inline;">
+   <div style="height: 25px; width:auto; border: solid 2px yellow; border-radius: 15px; background-color:#99FF66;  margin:1px; margin-top:2%;   float:inline;">
     <label for="fname" style="font-size:12px; margin-left:12px;" ><b>Name</b></label>
-    <input type="text" id="fname" name="fname" placeholder="first and last name" style="border: none; font-size:12px; width:60%; margin-left:60px; font-style:italic">
+    <input type="text" id="fname" name="fname" placeholder="first and last name" style="border: none; border-radius: 15px; font-size:12px; width:60%; margin-left:60px; font-style:italic">
 </div>
-   <div style="height: 25px; width:auto; border: solid 2px white; background-color:#99FF66;  margin:1px; margin-top:2%;    float:inline;">
+   <div style="height: 25px; width:auto; border: solid 2px yellow;border-radius: 15px; background-color:#99FF66;  margin:1px; margin-top:2%;    float:inline;">
     <label for="fname" style="font-size:12px; margin-left:12px;" ><b>Email</b></label>
-    <input type="text" id="fname" name="fname" placeholder="example@domain.com" style="border: none; font-size:12px; width:60%; margin-left:60px; font-style:italic">
+    <input type="text" id="fname" name="fname" placeholder="example@domain.com" style="border: none;border-radius: 15px; font-size:12px; width:60%; margin-left:60px; font-style:italic">
 </div>
-   <div style="height: 25px; width:auto; border: solid 2px white; background-color:#99FF66;  margin:1px; margin-top:2%;  float:inline;">
+   <div style="height: 25px; width:auto; border: solid 2px yellow;border-radius: 15px; background-color:#99FF66;  margin:1px; margin-top:2%;  float:inline;">
     <label for="fname" style="font-size:12px; margin-left:12px;" ><b>Phone</b></label>
-    <input type="text" id="fname" name="fname" placeholder="Eg. +447500000000" style="border: none; font-size:12px; width:60%; margin-left:60px; font-style:italic">
+    <input type="text" id="fname" name="fname" placeholder="Eg. +447500000000" style="border: none;border-radius: 15px; font-size:12px; width:60%; margin-left:60px; font-style:italic">
 </div>
 
    <h4><b>Step 2: Delivery address</b></h4>
-   <div style="height: 60px; width:auto; border: solid 2px white; background-color:#99FF66;  margin:1px; margin-top:2%;    float:inline;">
-    <label for="fname" style="font-size:12px;" ><b>Address</b></label>
-    <textarea id="address" name="address" style="border: none; font-size:12px; width:60%; height:40px; margin-left:60px; margin-top:12px;"></textarea>
+   <div style="height: 60px; width:auto; border: solid 2px yellow;border-radius: 15px; background-color:#99FF66;  margin:1px; margin-top:2%;    float:inline;">
+    <strong for="fname" style="margin-top: 1% !important; position: absolute; padding: 2px; font-size: 12px;"><b>Address</b></strong>
+    <textarea id="address" name="address" style="border: none;border-radius: 15px; font-size:12px; width:60%; height:40px; margin-left:25%; margin-top:6px;"></textarea>
 
 </div>
-   <div style="height: 25px; width:auto; border: solid 2px white; background-color:#99FF66;  margin:1px; margin-top:2%;    float:inline;">
+   <div style="height: 25px; width:auto; border: solid 2px yellow;border-radius: 15px; background-color:#99FF66;  margin:1px; margin-top:2%;    float:inline;">
     <label for="fname" style="font-size:12px; margin-left:12px;" ><b>Post code</b></label>
-    <input type="text" id="fname" name="fname"  style="border: none; font-size:12px; width:60%; margin-left:40px;">
+    <input type="text" id="fname" name="fname"  style="border: none;border-radius: 15px; font-size:12px; width:60%; margin-left:40px;">
 </div>
-   <div style="height: 25px; width:auto; border: solid 2px white; background-color:#99FF66;  margin:1px; margin-top:2%;  float:inline;">
+   <div style="height: 25px; width:auto; border: solid 2px yellow;border-radius: 15px; background-color:#99FF66;  margin:1px; margin-top:2%;  float:inline;">
     <label for="fname" style="font-size:12px; margin-left:12px;" ><b>Country</b></label>
-    <input type="text" id="fname" name="fname" style="border: none; font-size:12px; width:60%; margin-left:45px;">
+    <input type="text" id="fname" name="fname" style="border: none;border-radius: 15px; font-size:12px; width:60%; margin-left:45px;">
 </div>
 
    <h4><b>Step 3: Card details</b></h4>
-   <div style="height: 45px; width:auto; border: solid 2px white; background-color:#99FF66;  margin:1px; margin-top:2%;    float:inline;">
+   <div style="height: 45px; width:auto; border: solid 2px yellow;border-radius: 15px; background-color:#99FF66;  margin:1px; margin-top:2%;    float:inline;">
     <label for="fname" style="font-size:12px; margin-left:12px;" ><b>Card type</b></label><br>
     <input type="radio" id="visa" name="card_type" value="visa" style="margin-left:35px;">
+    <img src="image/visa.png" style="width: 20px; height: 10px">
     <label for="visa" style="font-size:12px;">VISA</label>
 
     <input type="radio" id="AmEx" name="card_type" value="AmEx" style="margin-left:35px;">
+    <img src="image/amex.jpeg" style="width: 20px; height: 10px">
     <label for="AmEx" style="font-size:12px;">AmEx</label>
 
     <input type="radio" id="Mastercard" name="card_type" value="Mastercard" style="margin-left:35px;">
+   <img src="image/master.png" style="width: 20px; height: 10px">
     <label for="Mastercard" style="font-size:12px;">Mastercard</label>
 
 </div>
-   <div style="height: 25px; width:auto; border: solid 2px white; background-color:#99FF66;  margin:1px; margin-top:2%;    float:inline;">
+   <div style="height: 25px; width:auto; border: solid 2px yellow;border-radius: 15px; background-color:#99FF66;  margin:1px; margin-top:2%;    float:inline;">
     <label for="fname" style="font-size:12px; margin-left:12px;" ><b>Card number</b></label>
-    <input type="text" id="fname" name="fname" style="border: none; font-size:12px; width:60%; margin-left:20px; "></div>
-   <div style="height: 25px; width:auto; border: solid 2px white; background-color:#99FF66;  margin:1px; margin-top:2%;  float:inline;">
-    <label for="fname" style="font-size:12px; margin-left:12px;" ><b>Security code</b></label>
-    <input type="text" id="fname" name="fname"  style="border: none; font-size:12px; width:60%; margin-left:20px;"></div>
-   <div style="height: 25px; width:auto; border: solid 2px white; background-color:#99FF66;  margin:1px; margin-top:2%;  float:inline;">
+    <input type="text" id="fname" name="fname" style="border: none;border-radius: 15px; font-size:12px; width:60%; margin-left:20px; "></div>
+   <div style="height: 25px; width:auto; border: solid 2px yellow;border-radius: 15px; background-color:#99FF66;  margin:1px; margin-top:2%;  float:inline;">
+    <label for="fname" style="font-size:12px; border-radius: 15px;margin-left:12px;" ><b>Security code</b></label>
+    <input type="text" id="fname" name="fname"  style="border: none;border-radius: 15px; font-size:12px; width:60%; margin-left:20px;"></div>
+   <div style="height: 25px; width:auto; border: solid 2px yellow;border-radius: 15px; background-color:#99FF66;  margin:1px; margin-top:2%;  float:inline;">
     <label for="fname" style="font-size:12px; margin-left:12px;" ><b>Name on card</b></label>
-    <input type="text" id="fname" name="fname" placeholder="Exact name as on the card" style="border: none; font-size:12px; width:60%; margin-left:17px;  font-style:italic"></div>
+    <input type="text" id="fname" name="fname" placeholder="Exact name as on the card" style="border: none;border-radius: 15px;s font-size:12px; width:60%; margin-left:17px;  font-style:italic"></div>
   <center>
     <input style="border: none; border-radius: 20px; background-color:#003300; color: white; margin-top: 10px;"
    type="button" name="buyit" value="   BUY IT!   ">  
